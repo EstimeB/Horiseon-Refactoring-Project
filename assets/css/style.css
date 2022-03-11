@@ -26,6 +26,7 @@ h1 {
     color: #d9dcd6;
 }
 /* Edited html which affected the name and the features added */
+/* Removed the class tags, the a hyperlink anchor, and added their contents and features */
 .item {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,8 +39,7 @@ h1 {
     color: #ffffff;
     text-decoration: none;
 }
-/* Removed the class tags and the a hyperlink anchor, added their contents and features above*/
-/* removed class tags titled ".hero" and ".content" and added their contents under section */
+/* Edited ".hero" and ".content" contents' */
 .hero {
     height: 800px;
     width: 100%;
@@ -47,6 +47,10 @@ h1 {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+.content {
+ margin-top: 825px;
+   
 }
 
 .float-left {
@@ -65,29 +69,34 @@ h1 {
     margin-left: 20px;
 }
 /*  */
-aside {
+/* Beside .benefits, classes were renamed and merged */
+.benefits {
     margin-right: 20px;
-    display: block;
+    padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 0%;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    color: #ffffff;
-    max-width: 150px;
 }
 
-.images {
+.images img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+.images h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-aside p {
+.images p {
     font-size: 16px;
 }
 /*  */
-.search-engine-optimization {
+/* Renamed the class tags and merged their contents */
+.online {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -96,60 +105,22 @@ aside p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.online img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.online h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
-/* Removed footer as class tag to a container */
+/* Removed footer as class tag and added as a container */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* Removed the class titled ".footer" to header h2 */
-h2 {
+/* Renamed from ".footer" */
+footer h2 {
     font-size: 20px;
 }
