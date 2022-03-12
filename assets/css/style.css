@@ -48,6 +48,7 @@ h1 {
     background-size: cover;
     background-position: center;
 }
+/* Added margin-top, which wasn't in the stater code */
 .content {
  margin-top: 825px;
    
